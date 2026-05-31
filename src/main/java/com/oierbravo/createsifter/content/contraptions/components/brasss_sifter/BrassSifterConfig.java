@@ -21,7 +21,7 @@ public class BrassSifterConfig {
                 .defineInRange("outputCapacity", 64, 1, Integer.MAX_VALUE);
         BRASS_SIFTER_ITEMS_PER_CYCLE = COMMON_BUILDER
                 .comment("Items processed per cycle")
-                .defineInRange("outputCapacity", 8, 1, 64);
+                .defineInRange("itemsPerCycle", 8, 1, 64);
         COMMON_BUILDER.pop();
     }
 }
